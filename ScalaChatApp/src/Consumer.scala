@@ -4,7 +4,7 @@ import org.apache.activemq.ActiveMQConnectionFactory
  
 
 object Consumer {
-  val url = "tcp://localhost:61616"
+  val url = "tcp://ec2-35-160-86-191.us-west-2.compute.amazonaws.com:61616"
   val topic = "chatroom"
   
   def main(args: Array[String])
