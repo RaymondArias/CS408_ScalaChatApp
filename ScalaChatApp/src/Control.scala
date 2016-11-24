@@ -1,6 +1,7 @@
 import java.util.Scanner
 
-object Control { 
+class Control {
+  def Control(){}
 	def main(args: Array[String]) {
 	  val input: Scanner = new Scanner(System.in)
 	  println("Enter your username: ")
