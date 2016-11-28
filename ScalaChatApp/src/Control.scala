@@ -7,6 +7,6 @@ class Control {
 	  println("Enter your username: ")
 	  val user = input.next()
 	  (new Thread(new Producer(user)).start())
-	  (new Thread(new Consumer()).start())
+	  (new Thread(new Consumer(user)).start())
 	}
 }
